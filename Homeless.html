@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed the Homeless Volunteer</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #3498db;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin: 10px 0;
+        }
+
+        input,
+        textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"],
+        input[type="button"] {
+            background-color: #3498db;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover,
+        input[type="button"]:hover {
+            background-color: #2980b9;
+        }
+
+        .donation-box {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        .donation-box h3 {
+            color: #3498db;
+        }
+
+        .donation-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .donation-item label {
+            margin-right: 10px;
+        }
+
+        footer {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Feed the Homeless Volunteering</h1>
+    </header>
+
+    <section>
+        <h2>About the Cause</h2>
+        <p>Unite with us to feed many.</p>
+        <p>Join us in making a difference in the lives of homeless individuals by volunteering to provide them with a warm meal and a sense of community.</p>
+    </section>
+
+    <section>
+        <h2>Volunteer Form</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="availability">Availability:</label>
+            <textarea id="availability" name="availability" rows="4" required></textarea>
+
+            <input type="submit" value="Volunteer Now">
+        </form>
+    </section>
+
+    <section class="donation-box">
+        <h2>Make a Donation</h2>
+        <div class="donation-item">
+            <label for="amount">Amount:</label>
+            <input type="text" id="amount" name="amount">
+        </div>
+        <div class="donation-item">
+            <label for="food">Food:</label>
+            <input type="text" id="food" name="food">
+        </div>
+        <div class="donation-item">
+            <label for="clothes">Clothes:</label>
+            <input type="text" id="clothes" name="clothes">
+        </div>
+        <div class="donation-item">
+            <label for="medicalItems">Medical Items:</label>
+            <input type="text" id="medicalItems" name="medicalItems">
+        </div>
+        <div class="donation-item">
+            <label for="paymentType">Payment Type:</label>
+            <select id="paymentType" name="paymentType">
+                <option value="creditCard">Credit Card</option>
+                <option value="paypal">PayPal</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="donation-item">
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4"></textarea>
+        </div>
+        <input type="button" value="Donate Now">
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2023 Feed the Homeless Volunteering</p>
+    </footer>
+    <style>
+        /* Style for the link container */
+        .link-container {
+          display: inline-block;
+          position: relative;
+        }
+    
+        /* Style for the link button */
+        .highlight-link {
+          display: inline-block;
+          padding: 10px 20px;
+          background-color: #3498db; /* Default background color for the button */
+          color: #fff; /* Default text color for the button */
+          text-decoration: none;
+          border-radius: 5px;
+          transition: background-color 0.3s ease; /* Smooth transition on hover */
+        }
+    
+        /* Hover effect for the link button */
+        .highlight-link:hover {
+          background-color: #2980b9; /* Highlighted background color on hover */
+        }
+    
+        /* Style for the small highlight effect */
+        .highlight-effect {
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          height: 3px;
+          width: 0;
+          background-color: #e74c3c; /* Highlight color */
+          transition: width 0.3s ease; /* Smooth transition on hover */
+        }
+    
+        /* Hover effect for the small highlight */
+        .highlight-link:hover .highlight-effect {
+          width: 100%;
+        }
+      </style>
+    </head>
+    <body>
+    
+      <!-- Link container with the link button and highlight effect -->
+      <div class="link-container">
+        <a href="Volunteer.html" class="highlight-link">
+          Home
+          <div class="highlight-effect"></div>
+        </a>
+      </div>
+    
+    </body>
+    </html>
+      <script src="script.js"></script>
+
+</body>
+</html>

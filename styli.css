@@ -1,0 +1,54 @@
+body {
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Arial', sans-serif
+    
+  
+}
+
+.container-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 100vh;
+    padding: 20px;
+    border-radius: 2px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for the outline effect */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 1px;
+    padding: 10px;
+    width: 150px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+a {
+    color: #1E90FF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

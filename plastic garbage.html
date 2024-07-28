@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-image: url('https://st.depositphotos.com/1318380/3833/i/450/depositphotos_38338101-stock-photo-trying-to-pick-up-plastic.jpg'); /* Replace 'background.jpg' with your actual background image file */
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .login-container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            width: 200px;
+            text-align: center;
+        }
+
+        .login-container input {
+            margin-bottom: 10px;
+        }
+    </style>
+    <title>Plastic Garbage Collection Form</title>
+</head>
+<body>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label for="street">Street:</label>
+        <input type="text" id="street" name="street" required>
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required>
+
+        <label for="availability">Availability:</label>
+        <input type="text" id="availability" name="availability" required>
+
+        <label for="dates">Available Dates:</label>
+        <input type="text" id="dates" name="dates" required>
+
+        <button type="submit">Submit</button>
+    </form>
+    <style>
+        /* Style for the link container */
+        .link-container {
+          display: inline-block;
+          position: relative;
+        }
+    
+        /* Style for the link button */
+        .highlight-link {
+          display: inline-block;
+          padding: 10px 20px;
+          background-color: #3498db; /* Default background color for the button */
+          color: #fff; /* Default text color for the button */
+          text-decoration: none;
+          border-radius: 5px;
+          transition: background-color 0.3s ease; /* Smooth transition on hover */
+        }
+    
+        /* Hover effect for the link button */
+        .highlight-link:hover {
+          background-color: #2980b9; /* Highlighted background color on hover */
+        }
+    
+        /* Style for the small highlight effect */
+        .highlight-effect {
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          height: 3px;
+          width: 0;
+          background-color: #e74c3c; /* Highlight color */
+          transition: width 0.3s ease; /* Smooth transition on hover */
+        }
+    
+        /* Hover effect for the small highlight */
+        .highlight-link:hover .highlight-effect {
+          width: 100%;
+        }
+      </style>
+    </head>
+    <body>
+    
+      <!-- Link container with the link button and highlight effect -->
+      <div class="link-container">
+        <a href="Volunteer.html" class="highlight-link">
+          Home
+          <div class="highlight-effect"></div>
+        </a>
+      </div>
+    
+    </body>
+    </html>
+      <script src="script.js"></script>
+
+
+</body>
+</html>
+

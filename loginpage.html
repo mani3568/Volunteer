@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer Login</title>
+    <link rel="stylesheet" href="stylelog.css">
+</head>
+
+<body>
+    <style>
+        body {
+          background-image: url('img1.jpeg.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+  background-size: 100% 100%;
+        }
+        </style>
+        
+        
+    <div class="container">
+        <form id="loginForm">
+            
+            <h2>Login</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+            <br> <div class="login-container">
+                <button onclick="goToPage('Volunteer.html')">Login</button>
+            </div>
+        
+            <script>
+                function goToPage(url) {
+                    window.location.href = url;
+                }
+            </script>
+        </body>
+           
+           
+        
+            <p>Don't have an account? <a href="signupp.html">Sign Up</a></p>
+            <p>Forgot Password?<a href="forgott.html">forgot</a>
+                
+            </body>
+
+    <script src="script.js"></script>
+</body>
+</html>

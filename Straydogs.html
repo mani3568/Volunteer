@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="jishh.css">
+  <title>Help Street Dogs</title>
+</head>
+
+<body>
+  <header>
+    <h1>Help Street Dogs</h1>
+  </header>
+
+  <section class="about">
+    <h2>About Us</h2>
+    <p>We are dedicated to providing care and support for street dogs. Your contributions can make a difference in their lives.</p>
+  </section>
+
+  <section class="donate">
+    <h2>Make a Donation</h2>
+    <form id="donationForm">
+      <label for="amount">Amount:</label>
+      <input type="number" id="amount" name="amount" min="1" placeholder="Enter amount" required>
+      <button type="button" onclick="submitDonation()">Donate</button>
+    </form>
+    <p id="thankYouMessage"></p>
+  </section>
+
+  <section class="gallery">
+    <h2>Gallery</h2>
+    <!-- ... (previous HTML code) ... -->
+
+<section class="gallery">
+  <h2>STREET DOGS WE HELPED</h2>
+  <div class="dog-image">
+    <img src="https://www.livelaw.in/h-upload/2021/09/18/1500x900_400801-straydogs.jpg" alt="Street Dog 1">
+    <p>RAMMU CHINNU </p>
+  </div>
+  <div class="dog-image">
+    <img src="https://i.natgeofe.com/n/2cf64015-d343-4981-90cd-c528a65812e0/01-stray-dogs-nationalgeographic_1927666_16x9.jpg?w=1200" alt="Street Dog 2">
+    <p>CHOTTU</p>
+  </div>
+  <!-- Add more images with similar structure as needed -->
+</section>
+
+<!-- ... (remaining HTML code) ... -->
+
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Help Street Dogs</p>
+  </footer>
+  <style>
+    /* Style for the link container */
+    .link-container {
+      display: inline-block;
+      position: relative;
+    }
+
+    /* Style for the link button */
+    .highlight-link {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #3498db; /* Default background color for the button */
+      color: #fff; /* Default text color for the button */
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease; /* Smooth transition on hover */
+    }
+
+    /* Hover effect for the link button */
+    .highlight-link:hover {
+      background-color: #2980b9; /* Highlighted background color on hover */
+    }
+
+    /* Style for the small highlight effect */
+    .highlight-effect {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 3px;
+      width: 0;
+      background-color: #e74c3c; /* Highlight color */
+      transition: width 0.3s ease; /* Smooth transition on hover */
+    }
+
+    /* Hover effect for the small highlight */
+    .highlight-link:hover .highlight-effect {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Link container with the link button and highlight effect -->
+  <div class="link-container">
+    <a href="Volunteer.html" class="highlight-link">
+      Home
+      <div class="highlight-effect"></div>
+    </a>
+  </div>
+
+</body>
+</html>
+  <script src="jish.js"></script>
+</body>
+
+</html>
